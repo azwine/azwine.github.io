@@ -3,6 +3,12 @@ body {
 	background-size: cover;
 }
 
-h1, p{
-	color: seashell;
+h1, 
+{
+	color: #000000;
+}
+
+p{
+	color: #fff;
+	font-size: 22px;
 }
