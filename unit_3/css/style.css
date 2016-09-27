@@ -1,5 +1,5 @@
 body {
-	background: url("../images/IMG_5225.jpg");
+	background: url("../images/winecellar.jpg");
 	background-size: cover;
 	text-align: center;
 	font-family: helvetica;
@@ -7,16 +7,40 @@ body {
 
 h1 
 {
-	color: #722f37;
-	font-size: 30px;
+	color: #fff;
+	font-size: 60px;
 	font-weight: bold;
+
+}
+
+h2 
+{
+	color: #FF0012;
+	font-size: 36px;
+	font-weight: bold;
+	text-align: center;
+	font-style: italic;
+
 }
 
 p{
-	color: #000
-	font-size: 16px;
+	color: #fff;
+	font-size: 20px;
+	
 }
 
-img{
+hr{
 	width: 500px;
+}
+
+ul{
+	color: #fff;
+	list-style-type: circle;
+}
+
+
+nav{
+	color: #fff;
+	text-align: right;
+	font-weight: bold;
 }
