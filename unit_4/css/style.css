@@ -1,0 +1,61 @@
+@import 'https://fonts.googleapis.com/css?family=Lato|Roboto';
+
+body {
+	background: url("../images/winecellar2.jpg");
+	background-size: cover;
+	font-family: 'Lato', sans-serif;
+}
+
+nav{
+	color: #fff;
+	text-align: right;
+	font-weight: bold;
+}
+
+h1 
+{
+	color: #fff;
+	font-size: 96px;
+	font-weight: bold;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+
+}
+
+h2 
+{
+	color: #FF0012;
+	font-size: 36px;
+	font-weight: bold;
+	text-align: center;
+	font-style: italic;
+	font-family: 'Roboto', sans-serif;
+	margin-bottom: 100px;
+
+}
+
+p{
+	color: #fff;
+	font-size: 20px;
+	margin-right:400px;
+	margin-left:400px;
+	text-align: center;
+
+}
+
+p.contact {
+	color: #fff;
+	font-size: 60px;
+
+}
+
+hr{
+	width: 500px;
+}
+
+ul{
+	color: #fff;
+	margin-left: 500px;
+}
+
+
