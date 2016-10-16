@@ -1,0 +1,95 @@
+@import 'https://fonts.googleapis.com/css?family=Lato|Roboto';
+
+body {
+	font-family: 'Lato', sans-serif;
+}
+
+div,section {
+	background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+}
+header{
+	background-color: #FFED74;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+nav{
+	background-color: #E8C66A;
+    border: 1px black solid;
+    padding: 20px;
+	color: #000;
+	text-align: right;
+	font-weight: bold;
+}
+
+aside{
+	background-color: #FFC675;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+
+h1 {
+	color: #000;
+	font-size: 96px;
+	font-weight: bold;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+
+}
+
+hr{
+	width: 500px;
+}
+
+
+h2 {
+	color: #FF0012;
+	font-size: 36px;
+	font-weight: bold;
+	text-align: center;
+	font-style: italic;
+	font-family: 'Roboto', sans-serif;
+	margin-bottom: 20px;
+
+}
+
+img{
+	display: block;
+  	margin: 0 auto;
+}
+
+p{
+	color: #fff;
+	font-size: 20px;
+	margin-right:400px;
+	margin-left:400px;
+	text-align: center;
+
+}
+
+article{
+
+	background-color: #E89C6C;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+
+footer{
+	background-color: #FF957E;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+p.contact {
+	color: #fff;
+	font-size: 16px;
+}
+
+
+
+
+
