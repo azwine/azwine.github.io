@@ -1,0 +1,144 @@
+@import 'https://fonts.googleapis.com/css?family=Lato|Roboto';
+
+body {
+	font-family: 'Lato', sans-serif;
+    font-size: 16px;
+}
+
+.wrapper{
+    background-image: url("file:///Users/azelazny/Desktop/azwine.github.io/unit_8/images/vineyard1.jpg");
+    background-size: cover;
+    border: 1px black solid;
+    width: 100%;
+}
+
+header{
+    background-color: green;
+    border: 1px black solid;
+}
+
+nav{
+    background-color: yellow;
+    border: 1px black solid;
+    padding: 1%;
+    color: #000;
+    float: right;
+    font-size: 1em;
+    font-weight: bold;
+    width: 100%;
+}
+
+nav a {
+  text-decoration: none;
+  margin: 1%;
+  color: black;
+  display: inline-block;
+}
+
+.hero{
+  
+    border: 1px black solid;
+}
+
+h1 {
+    color: #000;
+    font-size: 6em;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    background-color: red;
+}
+
+hr{
+    width: 100%;
+}
+
+
+h2 {
+    color: #FF0012;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    font-style: italic;
+    font-family: 'Roboto', sans-serif;
+}
+
+section{
+    border: 1px black solid;
+    width: 100%;
+}
+
+
+img{
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+}
+
+
+
+#one {
+    float: left;
+    width: 31%;
+    padding: 1%;
+}
+
+#two {
+    float: left;
+    width: 31%;
+    padding: 1%;
+}
+
+#three {
+    float: left;
+    width: 31%;
+    padding: 1%;
+}
+
+
+p.text {
+    color: #fff;
+    font-size: 1em;
+}
+p.contact {
+    color: #fff;
+    font-size: 1em;
+    text-align: center;
+}
+
+footer{
+    background-color: #FF957E;
+    border: 1px black solid;
+}
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+@media only screen and (max-width: 480px) {
+    #one {
+        float: none;
+        width: auto;
+    }
+
+    #two {
+        float: none;
+        width: auto;
+    }
+
+    #three {
+        float: none;
+        width: auto;
+    }
+
+     nav a{
+        display: block;
+        text-align: center;
+        margin: 0;
+    }
+}
+
