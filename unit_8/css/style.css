@@ -6,7 +6,7 @@ body {
 }
 
 .wrapper{
-    background-image: url("file:///Users/azelazny/Desktop/azwine.github.io/unit_8/images/vineyard1.jpg");
+    background-image: url("https://github.com/azwine/azwine.github.io/blob/master/unit_8/images/vineyard1.jpg?raw=true");
     background-size: cover;
     border: 1px black solid;
     width: 100%;
